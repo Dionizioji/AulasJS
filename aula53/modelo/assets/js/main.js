@@ -1,0 +1,18 @@
+//Exercício para for laço para criar elementos no HTML a partir de objetos array abaixo
+const elementos = [
+    {tag: 'p', texto: 'Frase 1'},
+    {tag: 'div', texto: 'Frase 2'},
+    {tag: 'section', texto: 'Frase 3'},
+    {tag: 'footer', texto: 'Frase 4'},
+]
+
+const container = document.querySelector('.container')
+const div = document.createElement('div')
+
+for (let i = 0; i < elementos.length ; i++){
+     let {tag, texto} = elementos[i]       //Usando desestruturação array de objeto
+     let tagCriada = document.createElement(tag)
+     tagCriada.innerText = texto
+     div.appendChild(tagCriada)
+}
+container.appendChild(div)
