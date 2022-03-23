@@ -40,3 +40,7 @@ console.log(pessoasMaisCinquenta)
 //Filtrando as pessoas cujo nome termina com letra 'E'
 const pessoasLetraE = pessoas.filter(obj => obj.nome.toLowerCase().endsWith('e'))
 console.log(pessoasLetraE)
+
+//Testando a lógica com operador ternário
+const arrayTeste = (newVet) => {newVet.numeros>10 ?  true : false}
+console.log(arrayTeste)
