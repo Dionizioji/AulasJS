@@ -8,7 +8,6 @@ a1.forEach(function(valor,indice,array){
 
 //Usando arrow
 const a2 = [10,20,30,40,50,60,70,80,90]
-
 a2.forEach(valor => console.log(valor + 2))
 
 
