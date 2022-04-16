@@ -23,6 +23,6 @@ function Produto(nome, preco, estoque){
 }    
     
     const p1 = new Produto ("Camiseta", 20, 3)
-    p1.estoque = "hjhjhj"
+    p1.estoque = "hjhjhj" //Fazendo estoque != do tipo number para o set invalidar! 
     console.log(p1)
     console.log(Object.keys(p1))
