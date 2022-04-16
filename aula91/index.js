@@ -22,7 +22,25 @@ function Produto(nome, preco, estoque){
     })
 }    
     
-    const p1 = new Produto ("Camiseta", 20, 3)
-    p1.estoque = "hjhjhj" //Fazendo estoque != do tipo number para o set invalidar! 
-    console.log(p1)
-    console.log(Object.keys(p1))
+const p1 = new Produto ("Camiseta", 20, 3)
+p1.estoque = "hjhjhj" //Fazendo estoque != do tipo number para o set invalidar! 
+console.log(p1)
+console.log(Object.keys(p1))
+
+//Usando get e set diretamente dentro de uma função construtura (Construct function)
+
+function criaProduto(){
+    return {
+        get nome(){//Cria a chave nome em p2
+            return nome
+        },
+        set nome(valor){
+            valor = valor.replace('coisa',' ')//Veja que a palavra "coisa" será substituida por um espaço vazio " "
+            nome = valor
+        }
+    }
+}
+
+const p2 = criaProduto("Camiseta")
+p2.nome = "Qualquer coisa"
+console.log(p2.nome)
