@@ -16,7 +16,7 @@ function Produto(nome, preco, estoque){
         },
         set: function(valor){ //Nesse caso, o set permite avaliar o tipo atribuído à chave desejada. 
             if (typeof valor !== "number"){
-                console.log('Entrada Inválido') 
+                console.log('Entrada Inválida') 
             }
         }
     })
