@@ -1,1 +1,1 @@
-<p>:computer: :pencil2:  Alguns exercícios práticos de JAVASCRIPT (VANILLA)<p> 
+<p>:pencil2:  Anotações de aulas de JAVASCRIPT (VANILLA)<p> 
