@@ -12,7 +12,7 @@ class ControleRemoto{
     diminuirVolume(){   //Método de instância
         this.volume -=2
     } 
-    static trocaPilha(){  //Método estático (SÓ PODEM SER ACESSADOS PELA CLASSE E SÓ PERTENCEM À CLASSE!!!)
+    static trocaPilha(){ //Método estático (SÓ PODEM SER ACESSADOS PELA CLASSE E SÓ PERTENCEM À CLASSE!!!)
         console.log('OK, trocando a pilha!') //É IMPORTANTE PERCEBER QUE trocaPilha não tem nada a ver com um obj criado por ControleRemoto
     }
 }
