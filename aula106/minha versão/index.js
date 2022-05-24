@@ -43,7 +43,7 @@ class Verifica{
         console.log('Digito 2 é ' + dig2)
         const vet = [dig1, dig2]  
         console.log(this.cpfbruto)
-        if(parseInt(this.cpfbruto[9]) !== parseInt(vet[0]) && parseInt(this.cpfbruto[10]) !== parseInt(vet[1]) ){
+        if(parseInt(this.cpfbruto[9]) !== parseInt(vet[0]) || parseInt(this.cpfbruto[10]) !== parseInt(vet[1]) ){
             console.log("CPF inválido!")
         }else{
             console.log("CPF válido!")
@@ -55,6 +55,6 @@ cpf.verificandoCPF()
 cpf.limpandoCPF()
 cpf.calculaDigitos()
 
-
+//FIM
 
 
