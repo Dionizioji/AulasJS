@@ -50,7 +50,6 @@ class Verifica{
         }
     }
 }
-
 const cpf = new Verifica('620268796.72')
 cpf.verificandoCPF()
 cpf.limpandoCPF()
