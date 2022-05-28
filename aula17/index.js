@@ -1,4 +1,4 @@
-//Funções aula 29 no curso
+/*Funções aula 29 no curso*/
 function saudacao (nome){
      console.log('Hello World!')
 }
