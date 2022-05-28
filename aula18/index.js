@@ -48,4 +48,4 @@ const objeto = {
 
 objeto.fala()
 objeto.incrementaIdade()
-console.log(objeto.idade3)
+console.log(objeto.idade3) //
