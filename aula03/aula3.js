@@ -3,3 +3,4 @@ console.log('Dionízio');//Apresentação da função log() dentro do objeto con
 console.log("Dionízio Júnio Inácio")
 
 console.log(34 ,15, `Dionízio`)
+//
