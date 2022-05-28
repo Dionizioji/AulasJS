@@ -20,4 +20,4 @@ alunos.push('Eduardo');
 console.log(alunos.slice(0,-2));//Pega uma fatia do array, neste caso pega da posição 0 até a antepenúltima (-2)
 console.log(alunos);//Mas o array original permanece inalterado
 console.log(typeof(alunos)); //Array é do tipo OBJETO em JS
-console.log(alunos instanceof Array);//Para verificar se é uma array
+console.log(alunos instanceof Array);/*Para verificar se é uma array*/
