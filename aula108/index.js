@@ -32,7 +32,7 @@ function waitAminute (mensagem, time){
     return new Promise((resolve, reject) => {
         if(typeof mensagem !== 'string') reject("BAD VALUE!") // Veja como o reject da promise pode ser usado
                                                               // Quando ocorre o reject caímos no CATCH() 
-                                                              // no reject podem ser lançados erros, false e tals...            
+                                                              // no reject normalmente são lançados erros, false e tals...            
         setTimeout(() => {      //Veja q agora o corpo da função waitAminute está dentro da promise     
             resolve(mensagem); //Resolve e Reject só podem receber um parametro
         }, time)
