@@ -1,7 +1,7 @@
 const numero = Number(prompt('Digite um número:'));
 const numeroTitulo = document.getElementById('numero-titulo'); 
 const texto = document.getElementById('texto');
-
+//Manipulando numbers 
 numeroTitulo.innerHTML = numero;
 texto.innerHTML += `<p> O Seu número - 2 é: ${numero -2}.</p>`;
 texto.innerHTML += `<p> A raiz quadrada do seu número é: ${numero**(1/2)}</p>`;
