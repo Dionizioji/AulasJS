@@ -56,4 +56,4 @@ baixaPagina() //Veja que a página já foi predefinida como se estivesse em cach
     .then(dadosPagina => console.log(dadosPagina))
     .catch(e => console.log(e))
 
-//Promise.reject >>> é similar ao resolve, porém os casos true caem no catch() e não no then() 
+//Promise.reject >>> é similar ao resolve, porém os casos true caem no catch() e não no then() //
