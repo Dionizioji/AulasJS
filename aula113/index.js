@@ -59,3 +59,4 @@ axios('pessoas.json')
         const resultado = document.querySelector(".resultado2")
         resultado.appendChild(table1)
     }
+//
